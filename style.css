@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: 0;
+}
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+/* header-start */
+ #header{
+    overflow: hidden;
+    padding: 0 10px;
+ }
+ .inner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+ }
+ .right-header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .right-header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3C354F;
+ }
+ .right-header a:last-child{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    border-radius: 8px;
+ }
+ .right-header-img{
+    display: flex;
+    gap: 10px;
+ }
+/* header-end */

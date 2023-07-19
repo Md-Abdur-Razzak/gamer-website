@@ -1,0 +1,9 @@
+@media screen and (max-width: 642px) {
+    .inner-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-header {
+        flex-direction: column;
+    }
+}
