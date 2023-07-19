@@ -7,3 +7,19 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 1020px) {
+    .container{
+        width: 100%;
+    }
+    .inner-banner {
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+    .left-banner{
+        order: 2;
+    }
+    .right-banner{
+        order: 1;
+    }
+}
