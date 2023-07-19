@@ -5,7 +5,15 @@
     .inner-banner {
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
-        gap: 20px;
+        gap: 60px;
+        padding: 50px 0;
+    }
+    .left-b-text h5 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .left-b-text h2 {
+        font-size: 77px;
     }
     .left-banner{
         order: 2;
@@ -47,7 +55,8 @@
         padding: 0 10px;
     }
     #games-videos {
-        margin: 50px 0;
+        margin-top: 86px;
+        margin-bottom: 0;
     }
     .game-video-card {
         width: 100%;
@@ -70,5 +79,25 @@
     }
     .left-play-games {
         text-align: center;
+    }
+}
+@media screen and (max-width: 425px) {
+    .left-play-instantly h2, .right-play-games h2 {
+        font-size: 41px;
+    }
+    .footer-manu {
+        padding: 0 75px;
+    }
+    .footer-icon{
+        padding: 0 125px;
+    }
+    .footer-policy{
+        padding: 0 75px;
+    }
+    .inner-footer p{
+        padding: 0 75px; 
+    }
+    .game-video-bottom{
+        gap: 5px;
     }
 }

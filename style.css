@@ -192,7 +192,6 @@ button{
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
-
 }
 .game-video-card{
     width: 20%;
@@ -202,6 +201,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .game-video-card img{
     width: 100%;
@@ -248,7 +248,8 @@ button{
 /* play-instantly-start */
 #play-instantly{
     overflow: hidden;
-    padding: 0 10px;
+    padding: 0px 10px;;
+    padding-bottom: 20px;
 }
 .inner-play-instantly{
     display: grid;
@@ -378,3 +379,60 @@ button{
     width: 60px;
 }
 /* game-selector-end */
+/* footer-start */
+#footer{
+    overflow: hidden;
+    background-color: #0B0223;
+    color: #fff;
+    padding: 40px 10px;
+}
+.inner-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.inner-footer .f-logo{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.inner-footer div h1{
+    color: #fff;
+}
+.logo-f-color{
+    color: #FF59B0;
+}
+.footer-manu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-manu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer-icon a i{
+    font-size: 30px;
+    color: #fff;
+}
+.footer-policy{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer-policy a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    text-decoration: none;
+}
+.inner-footer p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+}
