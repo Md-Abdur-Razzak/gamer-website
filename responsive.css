@@ -25,7 +25,15 @@
         width: 45%;
         margin-bottom: 20px;
     }
-
+    .inner-careers {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .left-careers {
+        order: 2;
+    }
+    .right-careers {
+        order: 1;
+    }
 }
 @media screen and (max-width: 642px) {
     .inner-header{
@@ -50,6 +58,17 @@
         gap: 20px;
     }
     .left-play-instantly {
+        order: 2;
+        text-align: center;
+    }
+    .right-play-instantly{
+        order: 1;
+    }
+    .inner-play-games{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .left-play-games {
         text-align: center;
     }
 }

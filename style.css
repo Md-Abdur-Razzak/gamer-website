@@ -272,3 +272,83 @@ button{
     grid-column: span 2;
 }
 /* play-instantly-end */
+/* play-games-start */
+#play-games{
+    overflow: hidden;
+    padding: 50px 10px;
+}
+.inner-play-games{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.right-play-games{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-play-games h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.right-play-games h2 span{
+    color: #DD4CC2;
+}
+.left-play-games{
+    grid-column: span 2;
+}
+/* play-games-end */
+/* careers-start */
+#careers{
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: #FF55AE;
+}
+.inner-careers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #fff;
+}
+.left-careers {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left-careers h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.left-careers p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.careers-list{
+    display: flex;
+}
+.careers-list a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.careers-l-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.careers-r-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+.careers-btn{
+    width: 280px;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #fff;
+    color: #FF55AE;
+    font-size: 20px;
+    font-weight: 600;   
+}
+/* careers-end */
