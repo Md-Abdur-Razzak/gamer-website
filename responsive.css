@@ -54,6 +54,9 @@
     .right-header {
         flex-direction: column;
     }
+    .right-play-games {
+        text-align: center;
+    }
     .right-gamer {
         padding: 0 10px;
     }
@@ -84,9 +87,9 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width:426px) {
     .left-play-instantly h2, .right-play-games h2 {
-        font-size: 41px;
+        font-size: 40px;
     }
     .footer-manu {
         padding: 0 75px;
@@ -102,5 +105,10 @@
     }
     .game-video-bottom{
         gap: 5px;
+    }   
+}
+@media screen and (max-width: 376px){
+    .container {
+        justify-content: center;
     }
 }

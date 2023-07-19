@@ -202,6 +202,7 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 20px;
 }
 .game-video-card img{
     width: 100%;
