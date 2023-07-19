@@ -352,3 +352,29 @@ button{
     font-weight: 600;   
 }
 /* careers-end */
+/* game-selector-start */
+#game-selector{
+    overflow: hidden;
+    margin: 100px 10px;
+}
+.inner-game-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.game-selector-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 28px;
+    padding-right: 7px;
+    border: 1px solid #F0F0F0;
+}
+.game-selector-btn:hover{
+    color: #FF59B0;
+    border: 1px solid #FF59B0;
+}
+.game-selector-btn img{
+    width: 60px;
+}
+/* game-selector-end */
