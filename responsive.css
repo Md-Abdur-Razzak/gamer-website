@@ -24,10 +24,13 @@
     .inner-gamer {
         grid-template-columns: repeat(1,1fr);
     }
-    .right-gamer {
-        text-align: left;
-        align-items: start;
-        padding: 0 100px;
+    .right-gamer{
+      
+      
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
     }
     .game-video-card {
         width: 45%;
