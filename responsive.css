@@ -25,6 +25,7 @@
         width: 45%;
         margin-bottom: 20px;
     }
+
 }
 @media screen and (max-width: 642px) {
     .inner-header{
@@ -37,8 +38,18 @@
     .right-gamer {
         padding: 0 10px;
     }
+    #games-videos {
+        margin: 50px 0;
+    }
     .game-video-card {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .inner-play-instantly{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .left-play-instantly {
+        text-align: center;
     }
 }

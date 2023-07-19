@@ -4,7 +4,6 @@
 }
 img{
     width: 100%;
-    height: 100%;
 }
 button{
     border: 0;
@@ -246,3 +245,30 @@ button{
 }
 
 /* gamer-video-end */
+/* play-instantly-start */
+#play-instantly{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.inner-play-instantly{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.left-play-instantly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.left-play-instantly h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.left-play-instantly h2 span{
+    color: #DD4CC2;
+}
+.right-play-instantly{
+    grid-column: span 2;
+}
+/* play-instantly-end */
